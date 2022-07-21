@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+
+    <!-- Internal css-->
+    <style>
+        input[type=text] {
+            width: 100%;
+            padding: 6px 5px;
+            margin: 1px 0;
+        }
+
+        input[type=password] {
+            width: 100%;
+            padding: 6px 5px;
+            margin: 1px 0;
+        }
+
+        input[type=number] {
+            width: 100%;
+            padding: 6px 5px;
+            margin: 1px 0;
+        }
+
+        input[type=email] {
+            width: 100%;
+            padding: 6px 5px;
+            margin: 1px 0;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px 10px;
+            margin-top: 1px;
+            display: inline-block;
+            font-size: 16px;
+
+
+        }
+
+        #submit {
+            background-color: violet;
+            border: none;
+            color: white;
+            padding: 10px ;
+            text-decoration: none;
+            margin: 4px 2px;
+            margin-left: 150px;
+            margin-top: 10px;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form">
+        <!-- heading -->
+        <h2><b> Registration Form</b></h2>
+
+        <form action="" method="post" autocomplete="on" onsubmit="signup()">
+             <!--name-->
+             <div class="name">
+                <input type="text" name="txt" id="uname" placeholder="Full Name" required> <br> <br>
+            </div>
+            <!--Email-->
+            <div class="email">
+                <input type="email" name="email" id="email" placeholder="Email" size="52" 
+                    required><br><br>
+            </div>
+
+             <!--phone-->
+             <div class="name">
+                <input type="number" name="num" id="number" placeholder="Phone Number" required> <br> <br>
+            </div>
+
+            <!--Password-->
+            <div>
+                <input type="password" name="psd" id="password" placeholder="Password" size="52" 
+                    required><br><br>
+                <input type="password" name="psd" id="password1" placeholder="Re-type password" size="52"
+                     required><br><br>
+            </div>
+
+           
+
+            <div>
+                <button id="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="ls.js"></script>
+
+</body>
+
+</html>

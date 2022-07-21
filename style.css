@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding-bottom:6px;
+
+}
+body
+{
+	font-family: arial,helvetica,sans-sherif;
+	font-size: 16px;
+	background: #f2f2f2;
+    margin-top: 10%;
+}
+.form
+{
+	background-color: white;
+	width: 400px;
+	height: 380px;
+	padding:25px;
+	margin: 50px auto 0;
+	border-top: 7px solid violet;
+	
+}
+h2
+{
+	padding-bottom: 20px;
+	text-align: center;
+	font-weight:bold;
+	font-size:30px;
+}
+h2 span
+{
+	display:block;
+}
+.email
+{
+	width:100%;
+	padding-right:5px;
+	
+
+}
+.name span
+{
+	padding-left:75px;
+}
+.gender
+{
+	font-family: roboto;
+	font-weight:bolder;
+}
+.gender span
+{
+	padding-left:20px;
+}
+	
+.box
+{
+	font-family: roboto;
+	font-weight:bold;
+}
+.a{
+	text-shadow: 0px 2px 3px skyblue;
+}
+.sticky{
+	position:sticky;
+	padding:10px;
+	border:4px;
+	background-color:Gray;
+}
+.b{
+	width:100%;
+	padding-left:80%;
+	font-weight:bold;
+	
+}
